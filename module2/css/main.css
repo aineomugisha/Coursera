@@ -22,6 +22,7 @@ html{
     width:32%;
     position:relative;
     margin:0px 0px 0px 10px;
+    background-color: rgb(243, 239, 239);
     
 }
 
@@ -33,6 +34,7 @@ html{
     top: 0px;
     left: 0px;
     margin:0px 0px 0px 10px;
+    background-color: rgb(243, 239, 239);
     
 }
 
@@ -42,6 +44,7 @@ html{
     position:relative;
     border:1px solid black;
     margin:0px 0px 0px 10px;
+    background-color: rgb(243, 239, 239);
     
 }
 
@@ -111,9 +114,9 @@ html{
 
 @media only screen and (min-width: 992px)
 {
-
-h2
-{
-    margin-left: 50px;
-}
+    #food, #music, #clothing
+    {
+        
+      border:2px solid black;
+    }   
 }
