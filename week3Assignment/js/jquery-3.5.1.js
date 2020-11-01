@@ -10870,3 +10870,7 @@ if ( typeof noGlobal === "undefined" ) {
 
 return jQuery;
 } );
+
+ $(document).on('click',function(){
+  $('.collapse').collapse('hide');
+  })
