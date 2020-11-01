@@ -1,122 +1,42 @@
-*{  
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
-}
-h1{
-    text-align: center;
-    font-size: 175%;
-}
+1. Which of the following is not a Javascript datatype? 
+1. Integer
+2. numbers
+3. string
+4. all of the above
 
-html{
-    margin: 10px;
-}
-.container{
-    width:100%;
-    margin:0;
-    padding: 0;
-}
+D
 
-#music{
-    float: left;
-    border:1px solid black;
-    width:32%;
-    position:relative;
-    margin:0px 0px 0px 10px;
-    background-color: rgb(243, 239, 239);
-    
-}
+2. how do you select  elements in DOM? 
 
-#food{
-    float: left;
-    border:1px solid black;
-    width:32%;
-    position:relative;
-    top: 0px;
-    left: 0px;
-    margin:0px 0px 0px 10px;
-    background-color: rgb(243, 239, 239);
-    
-}
+A document.getElementById(‘#id’)
+B document.getElementsByClassName(‘.classname’)
+C none of the above
+D both of the above
+D
 
-#clothing{
-    float: left;
-    width:32%;
-    position:relative;
-    border:1px solid black;
-    margin:0px 0px 0px 10px;
-    background-color: rgb(243, 239, 239);
-    
-}
+3. How many tags are in a regular element? 
+A 2 
+B. 1 
+C. 3
+D. 4
+A
 
-h2{
-    text-align:right;
-    position: relative;
-    background-color: gray;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    margin-left: 50px;
-    border-bottom:1px solid black;
-    border-left:1px solid black;
-    font-size: 125%;
-}
 
-p{
-    padding:10px
-}
+4. Which of the following property is used to st the background image of an element?
+A background-color
+B background-image
+C background-repeat
+D background-position 
 
-#egg{
-    background-color: rgb(179, 71, 71);
-}
+A
 
-#sola{
-    background-color: rgb(194, 130, 100);
-}
-#mode{
-    background-color: rgb(68, 202, 202);
-}
+5. What is the correct JavaScript syntax to change the content of the HTML element below?
 
-@media only screen and (max-width: 767px)
-{
+<p id="demo">This is a demonstration.</p>
 
-#food, #music, #clothing
-{
-    width:100%;
-    margin-bottom: 10px;
-    margin-left:0px;
-}
-}
+A document.getElement('p').innerHTML='hello World'
+B document.getElementByName('demo').innerHTML='hello world';
+C document.getElementByName'p).innerHTML='hello World';
+D #demo.innnerHTML='Hello World!?'
 
-@media only screen and (min-width: 768px) and (max-width: 991px)
-{
-html{
-        margin:5px;
-    }
-
-#food, #music
-{
-    width:49%;
-    margin-bottom: 10px;
-    margin-left:0px;
-}
-
-#food {
-    margin-right:15px;
-}
-
- #clothing{
-     width:100%;
-     margin-left:0px;
- }
-}
-
-@media only screen and (min-width: 992px)
-{
-    #food, #music, #clothing
-    {
-        
-      border:2px solid black;
-    }   
-}
+B

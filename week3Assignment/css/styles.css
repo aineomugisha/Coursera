@@ -1,0 +1,59 @@
+body{
+    min-height: 1400px;
+    margin: 0;
+    padding:0;
+}
+.desktopTab{
+    background-color: grey;
+    border: black solid 2px;
+    padding: 15px;
+
+}
+main{
+    display: grid;
+
+}
+
+/* .menu, h3
+{
+    text-align: center;
+} */
+
+section{
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+}
+
+nav{
+    border: rgb(19, 18, 18) solid 2px;
+    background-color: grey;
+    width: 100%;
+    margin:0;
+}
+ul{
+    min-width:100%;
+    margin:0;
+    padding: 0;
+    background-color: white;
+    border: black solid 2px;
+}
+li{
+    background-color: white;
+    border-bottom: black solid 2px;
+    margin:0px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+header{
+    padding:0;
+}
+
+a{
+    color: black;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
